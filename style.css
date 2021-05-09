@@ -1,0 +1,45 @@
+body{
+    text-align: center; 
+    font-family:'Courier New', Courier, monospace; 
+}
+.line{
+    height: 10px;
+    width: 250px; 
+    background-color: greenyellow;
+    margin: 9px auto; 
+}
+#app{
+    height: 760px; 
+    width: 100%; 
+    background: linear-gradient(red, rgb(255, 0, 0), rgb(255, 0, 85));
+    top:0; 
+    bottom:0;
+    left:0; 
+    right:0; 
+}
+#chat{
+    height: 750px; 
+    width: 100%; 
+    background: linear-gradient(purple, rgb(124, 0, 128), rgb(117, 0, 128));
+    top:0; 
+    bottom:0;
+    left:0; 
+    right:0; 
+}
+#game{
+    height: 750px; 
+    width: 100%; 
+    background: linear-gradient(blue, rgb(23, 3, 202), rgb(0, 255, 234)); 
+    top:0; 
+    bottom:0;
+    left:0; 
+    right:0; 
+}
+img{
+    height: 400px; 
+    width: 420px; 
+    transition:transform 0.3s; 
+}
+img:hover{
+transform:scale(1.3); 
+}
